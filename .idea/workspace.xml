@@ -23,18 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c332855e-1472-4d27-ab03-26b600a6ba8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ImageHoster.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/config/JpaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/config/JpaConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/repository/ImageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/repository/ImageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/service/ImageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/service/ImageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/images.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/controller/ImageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/controller/ImageController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/images/image.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +90,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.6643678" />
@@ -146,7 +140,7 @@
       <workItem from="1541425509097" duration="2191000" />
       <workItem from="1541430847431" duration="899000" />
       <workItem from="1541482181542" duration="4602000" />
-      <workItem from="1608358893678" duration="4117000" />
+      <workItem from="1608358893678" duration="8903000" />
     </task>
     <servers />
   </component>
@@ -165,58 +159,58 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="260" key="GridCell.Tab.0.bottom" timestamp="1608381622499">
+    <state width="1398" height="260" key="GridCell.Tab.0.bottom" timestamp="1608400583597">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.0.bottom/0.25.1440.789@0.25.1440.789" timestamp="1608381622499" />
-    <state width="1398" height="260" key="GridCell.Tab.0.center" timestamp="1608381622498">
+    <state width="1398" height="260" key="GridCell.Tab.0.bottom/0.25.1440.789@0.25.1440.789" timestamp="1608400583597" />
+    <state width="1398" height="260" key="GridCell.Tab.0.center" timestamp="1608400583596">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.0.center/0.25.1440.789@0.25.1440.789" timestamp="1608381622498" />
-    <state width="1398" height="260" key="GridCell.Tab.0.left" timestamp="1608381622498">
+    <state width="1398" height="260" key="GridCell.Tab.0.center/0.25.1440.789@0.25.1440.789" timestamp="1608400583596" />
+    <state width="1398" height="260" key="GridCell.Tab.0.left" timestamp="1608400583595">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.0.left/0.25.1440.789@0.25.1440.789" timestamp="1608381622498" />
-    <state width="1398" height="260" key="GridCell.Tab.0.right" timestamp="1608381622499">
+    <state width="1398" height="260" key="GridCell.Tab.0.left/0.25.1440.789@0.25.1440.789" timestamp="1608400583595" />
+    <state width="1398" height="260" key="GridCell.Tab.0.right" timestamp="1608400583596">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.0.right/0.25.1440.789@0.25.1440.789" timestamp="1608381622499" />
-    <state width="1398" height="260" key="GridCell.Tab.1.bottom" timestamp="1608381622501">
+    <state width="1398" height="260" key="GridCell.Tab.0.right/0.25.1440.789@0.25.1440.789" timestamp="1608400583596" />
+    <state width="1398" height="260" key="GridCell.Tab.1.bottom" timestamp="1608400583598">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.1.bottom/0.25.1440.789@0.25.1440.789" timestamp="1608381622501" />
-    <state width="1398" height="260" key="GridCell.Tab.1.center" timestamp="1608381622500">
+    <state width="1398" height="260" key="GridCell.Tab.1.bottom/0.25.1440.789@0.25.1440.789" timestamp="1608400583598" />
+    <state width="1398" height="260" key="GridCell.Tab.1.center" timestamp="1608400583598">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.1.center/0.25.1440.789@0.25.1440.789" timestamp="1608381622500" />
-    <state width="1398" height="260" key="GridCell.Tab.1.left" timestamp="1608381622500">
+    <state width="1398" height="260" key="GridCell.Tab.1.center/0.25.1440.789@0.25.1440.789" timestamp="1608400583598" />
+    <state width="1398" height="260" key="GridCell.Tab.1.left" timestamp="1608400583597">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.1.left/0.25.1440.789@0.25.1440.789" timestamp="1608381622500" />
-    <state width="1398" height="260" key="GridCell.Tab.1.right" timestamp="1608381622500">
+    <state width="1398" height="260" key="GridCell.Tab.1.left/0.25.1440.789@0.25.1440.789" timestamp="1608400583597" />
+    <state width="1398" height="260" key="GridCell.Tab.1.right" timestamp="1608400583598">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.1.right/0.25.1440.789@0.25.1440.789" timestamp="1608381622500" />
-    <state width="1398" height="47" key="GridCell.Tab.2.bottom" timestamp="1608363456882">
+    <state width="1398" height="260" key="GridCell.Tab.1.right/0.25.1440.789@0.25.1440.789" timestamp="1608400583598" />
+    <state width="1398" height="258" key="GridCell.Tab.2.bottom" timestamp="1608398382719">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state width="1398" height="47" key="GridCell.Tab.2.bottom/0.25.1440.789@0.25.1440.789" timestamp="1608363456882" />
-    <state width="1398" height="47" key="GridCell.Tab.2.center" timestamp="1608363456880">
+    <state width="1398" height="258" key="GridCell.Tab.2.bottom/0.25.1440.789@0.25.1440.789" timestamp="1608398382719" />
+    <state width="1398" height="258" key="GridCell.Tab.2.center" timestamp="1608398382718">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state width="1398" height="47" key="GridCell.Tab.2.center/0.25.1440.789@0.25.1440.789" timestamp="1608363456880" />
-    <state width="1398" height="47" key="GridCell.Tab.2.left" timestamp="1608363456880">
+    <state width="1398" height="258" key="GridCell.Tab.2.center/0.25.1440.789@0.25.1440.789" timestamp="1608398382718" />
+    <state width="1398" height="258" key="GridCell.Tab.2.left" timestamp="1608398382717">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state width="1398" height="47" key="GridCell.Tab.2.left/0.25.1440.789@0.25.1440.789" timestamp="1608363456880" />
-    <state width="1398" height="47" key="GridCell.Tab.2.right" timestamp="1608363456882">
+    <state width="1398" height="258" key="GridCell.Tab.2.left/0.25.1440.789@0.25.1440.789" timestamp="1608398382717" />
+    <state width="1398" height="258" key="GridCell.Tab.2.right" timestamp="1608398382718">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state width="1398" height="47" key="GridCell.Tab.2.right/0.25.1440.789@0.25.1440.789" timestamp="1608363456882" />
-    <state x="385" y="138" width="670" height="676" key="search.everywhere.popup" timestamp="1608381467747">
+    <state width="1398" height="258" key="GridCell.Tab.2.right/0.25.1440.789@0.25.1440.789" timestamp="1608398382718" />
+    <state x="385" y="138" width="670" height="676" key="search.everywhere.popup" timestamp="1608400179206">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state x="385" y="138" width="670" height="676" key="search.everywhere.popup/0.25.1440.789@0.25.1440.789" timestamp="1608381467747" />
+    <state x="385" y="138" width="670" height="676" key="search.everywhere.popup/0.25.1440.789@0.25.1440.789" timestamp="1608400179206" />
   </component>
   <component name="masterDetails">
     <states>
