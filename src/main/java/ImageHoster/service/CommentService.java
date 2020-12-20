@@ -18,6 +18,7 @@ public class CommentService {
      * @param newComment - New comment to be persisted.
      * @return - Persisted comment object.
      */
+
     public Comment createComment(Comment newComment) {
         return commentRepository.createComment(newComment);
     }

@@ -18,13 +18,13 @@ public class Comment {
     @Column(name = "date")
     private LocalDate createdDate;
 
-    //Multiple comments can belong to a single user.
+    //Multiple comments can belong to a single user, defining Many To One relationship
     @ManyToOne(fetch = FetchType.EAGER)
     //Below annotation indicates that the name of the column in 'comments' table referring the primary key in 'users' table will be 'user_id'
     @JoinColumn(name = "user_id")
     private User user;
 
-    //Many comments can be associated with one image.
+    //Multiple comments can be associated with a single image, defining Many To One relationship
     @ManyToOne(fetch = FetchType.EAGER)
     //Below annotation indicates that the name of the column in 'comments' table referring the primary key in 'images' table will be 'image_id'
     @JoinColumn(name = "image_id")
