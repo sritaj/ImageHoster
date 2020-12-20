@@ -23,11 +23,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c332855e-1472-4d27-ab03-26b600a6ba8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/model/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/repository/CommentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/service/CommentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/users/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/model/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/model/Image.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/images.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/controller/ImageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/controller/ImageController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/users/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/users/registration.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/model/Image.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/model/Image.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/images/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/images/image.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +106,17 @@
     <property name="project.structure.side.proportion" value="0.6643678" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ImageHosterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ImageHoster" />
       <extension name="coverage">
@@ -140,7 +161,7 @@
       <workItem from="1541425509097" duration="2191000" />
       <workItem from="1541430847431" duration="899000" />
       <workItem from="1541482181542" duration="4602000" />
-      <workItem from="1608358893678" duration="12015000" />
+      <workItem from="1608358893678" duration="23015000" />
     </task>
     <servers />
   </component>
@@ -159,58 +180,66 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="260" key="GridCell.Tab.0.bottom" timestamp="1608439088575">
+    <state x="533" y="107" key="#com.intellij.ide.util.MemberChooser" timestamp="1608445882051">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.0.bottom/0.25.1440.789@0.25.1440.789" timestamp="1608439088575" />
-    <state width="1398" height="260" key="GridCell.Tab.0.center" timestamp="1608439088574">
+    <state x="533" y="107" key="#com.intellij.ide.util.MemberChooser/0.25.1440.789@0.25.1440.789" timestamp="1608445882051" />
+    <state x="458" y="170" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608445715809">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.0.center/0.25.1440.789@0.25.1440.789" timestamp="1608439088574" />
-    <state width="1398" height="260" key="GridCell.Tab.0.left" timestamp="1608439088574">
+    <state x="458" y="170" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.25.1440.789@0.25.1440.789" timestamp="1608445715809" />
+    <state width="1398" height="260" key="GridCell.Tab.0.bottom" timestamp="1608451420043">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.0.left/0.25.1440.789@0.25.1440.789" timestamp="1608439088574" />
-    <state width="1398" height="260" key="GridCell.Tab.0.right" timestamp="1608439088575">
+    <state width="1398" height="260" key="GridCell.Tab.0.bottom/0.25.1440.789@0.25.1440.789" timestamp="1608451420043" />
+    <state width="1398" height="260" key="GridCell.Tab.0.center" timestamp="1608451420042">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.0.right/0.25.1440.789@0.25.1440.789" timestamp="1608439088575" />
-    <state width="1398" height="260" key="GridCell.Tab.1.bottom" timestamp="1608439088577">
+    <state width="1398" height="260" key="GridCell.Tab.0.center/0.25.1440.789@0.25.1440.789" timestamp="1608451420042" />
+    <state width="1398" height="260" key="GridCell.Tab.0.left" timestamp="1608451420042">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.1.bottom/0.25.1440.789@0.25.1440.789" timestamp="1608439088577" />
-    <state width="1398" height="260" key="GridCell.Tab.1.center" timestamp="1608439088576">
+    <state width="1398" height="260" key="GridCell.Tab.0.left/0.25.1440.789@0.25.1440.789" timestamp="1608451420042" />
+    <state width="1398" height="260" key="GridCell.Tab.0.right" timestamp="1608451420043">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.1.center/0.25.1440.789@0.25.1440.789" timestamp="1608439088576" />
-    <state width="1398" height="260" key="GridCell.Tab.1.left" timestamp="1608439088576">
+    <state width="1398" height="260" key="GridCell.Tab.0.right/0.25.1440.789@0.25.1440.789" timestamp="1608451420043" />
+    <state width="1398" height="260" key="GridCell.Tab.1.bottom" timestamp="1608451420044">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.1.left/0.25.1440.789@0.25.1440.789" timestamp="1608439088576" />
-    <state width="1398" height="260" key="GridCell.Tab.1.right" timestamp="1608439088576">
+    <state width="1398" height="260" key="GridCell.Tab.1.bottom/0.25.1440.789@0.25.1440.789" timestamp="1608451420044" />
+    <state width="1398" height="260" key="GridCell.Tab.1.center" timestamp="1608451420044">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.1.right/0.25.1440.789@0.25.1440.789" timestamp="1608439088576" />
-    <state width="1398" height="258" key="GridCell.Tab.2.bottom" timestamp="1608398382719">
+    <state width="1398" height="260" key="GridCell.Tab.1.center/0.25.1440.789@0.25.1440.789" timestamp="1608451420044" />
+    <state width="1398" height="260" key="GridCell.Tab.1.left" timestamp="1608451420043">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state width="1398" height="258" key="GridCell.Tab.2.bottom/0.25.1440.789@0.25.1440.789" timestamp="1608398382719" />
-    <state width="1398" height="258" key="GridCell.Tab.2.center" timestamp="1608398382718">
+    <state width="1398" height="260" key="GridCell.Tab.1.left/0.25.1440.789@0.25.1440.789" timestamp="1608451420043" />
+    <state width="1398" height="260" key="GridCell.Tab.1.right" timestamp="1608451420044">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state width="1398" height="258" key="GridCell.Tab.2.center/0.25.1440.789@0.25.1440.789" timestamp="1608398382718" />
-    <state width="1398" height="258" key="GridCell.Tab.2.left" timestamp="1608398382717">
+    <state width="1398" height="260" key="GridCell.Tab.1.right/0.25.1440.789@0.25.1440.789" timestamp="1608451420044" />
+    <state width="1398" height="258" key="GridCell.Tab.2.bottom" timestamp="1608451363608">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state width="1398" height="258" key="GridCell.Tab.2.left/0.25.1440.789@0.25.1440.789" timestamp="1608398382717" />
-    <state width="1398" height="258" key="GridCell.Tab.2.right" timestamp="1608398382718">
+    <state width="1398" height="258" key="GridCell.Tab.2.bottom/0.25.1440.789@0.25.1440.789" timestamp="1608451363608" />
+    <state width="1398" height="258" key="GridCell.Tab.2.center" timestamp="1608451363607">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state width="1398" height="258" key="GridCell.Tab.2.right/0.25.1440.789@0.25.1440.789" timestamp="1608398382718" />
-    <state x="385" y="138" width="670" height="676" key="search.everywhere.popup" timestamp="1608436740477">
+    <state width="1398" height="258" key="GridCell.Tab.2.center/0.25.1440.789@0.25.1440.789" timestamp="1608451363607" />
+    <state width="1398" height="258" key="GridCell.Tab.2.left" timestamp="1608451363607">
       <screen x="0" y="25" width="1440" height="789" />
     </state>
-    <state x="385" y="138" width="670" height="676" key="search.everywhere.popup/0.25.1440.789@0.25.1440.789" timestamp="1608436740477" />
+    <state width="1398" height="258" key="GridCell.Tab.2.left/0.25.1440.789@0.25.1440.789" timestamp="1608451363607" />
+    <state width="1398" height="258" key="GridCell.Tab.2.right" timestamp="1608451363607">
+      <screen x="0" y="25" width="1440" height="789" />
+    </state>
+    <state width="1398" height="258" key="GridCell.Tab.2.right/0.25.1440.789@0.25.1440.789" timestamp="1608451363607" />
+    <state x="385" y="138" width="670" height="676" key="search.everywhere.popup" timestamp="1608450598087">
+      <screen x="0" y="25" width="1440" height="789" />
+    </state>
+    <state x="385" y="138" width="670" height="676" key="search.everywhere.popup/0.25.1440.789@0.25.1440.789" timestamp="1608450598087" />
   </component>
   <component name="masterDetails">
     <states>
